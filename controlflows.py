@@ -25,6 +25,29 @@ i = 1
 for item in fruits:
     print ("Fruit-%d:%s" %(i,item) )
     i=i+1
+student ={"naam":"ram","age":21,"place":"india"}
+for keys in student:
+    print("keys -%s:%s" %(keys,student[keys]))
+    #while loop 
+i = 0
+while i <= 100:
+    if(i%2==0):
+        print (i)
+    i=i+1
+    if(i == 98):
+            break
+ii =0
+while(ii <=110):
+    print(ii)
+    ii = ii+10
+    fruits2=["apple","orange","banana","mango"] 
+for item in fruits2: 
+    if item == "banana":
+        pass
+else: print (item)
+
+
+        
     
     
 

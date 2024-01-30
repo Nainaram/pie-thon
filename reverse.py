@@ -83,15 +83,20 @@
 # print(reverse(s))
 
 # Function to reverse a string
-def reverse(string):
-	string = [string[i] for i in range(len(string)-1, -1, -1)]
-	return "".join(string)
+# def reverse(string):
+# 	string = [string[i] for i in range(len(string)-1, -1, -1)]
+# 	return "".join(string)
 
-s = "traehdliw"
+# s = "traehdliw"
 
-print("The original string is : ", s)
+# print("The original string is : ", s)
 
-print("The reversed string(using reversed) is : ", reverse(s))
+# print("The reversed string(using reversed) is : ", reverse(s))
 
-
+str  = input("enter the string")
+def reverse(str):
+    str = list(str)
+    str.reverse()
+    return "".join(str)
+print("reversed string:",reverse(str))
  

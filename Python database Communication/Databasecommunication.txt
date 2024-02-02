@@ -1,0 +1,11 @@
+first install pymysql library using following command
+        Pip install pymysql
+install SQLYOG SOFTWARE for database work
+install  mySQL community server
+Steps for working with the database
+1. Create a database in SQLYOG
+2. Import the API in the module
+3. Aquring a connection with the database
+4. Issquing sql statements
+5. Closing the connection
+starting with importing the  import pymysql

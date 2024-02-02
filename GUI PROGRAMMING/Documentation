@@ -1,0 +1,14 @@
+TKINTER GUI
+TKINTER is a GUI user interface  for the pythonn
+it is the fastest and easiest way  to create a  GUI application and mostly used for gui application
+STEP TO CREATE A GUI application
+1. IMPORT THE module tkinter
+2. Create a main window 
+3. Add any number of widgets to main window
+4. Apply the event triggers to the widgets
+use the command 
+import tkinter
+1.  there are two main types of  to create main window
+1. TK() to create a main window tkinter provide a method AND
+ mainloop() and there is method  know by the name mainloop(),it is  used to run  yor application
+  There are somany widgets you can explore and use as per your application
